@@ -14,4 +14,6 @@ Quando se trata de escrever códigos na linguagem Java, é recomendado seguir al
     3 public class CalculadoraCientifica  {
     4
     5 }
-
+    
+**- Nome de variável:** toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA.
+Exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase".
