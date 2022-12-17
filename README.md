@@ -17,3 +17,12 @@ Quando se trata de escrever códigos na linguagem Java, é recomendado seguir al
     
 **- Nome de variável:** toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA.
 Exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase".
+
+**RECOMENDAÇÕES:** Para declarar uma variável nós podemos utilizar caracteres, números e símbolos, porém devemos seguir algumas regras da linguagem, como:
+
+- Deve conter apenas letras, underline , $ ou os números de 0 a 9.
+- Deve obrigatoriamente se iniciar com uma letra(preferencialmente, underline ou $, jamais com número.
+- Deve iniciar com uma letra minúscula.
+- Não pode conter espaços.
+- Não podemos usar palavras chave da linguagem.
+- O nome deve ser único dentro de um escopo. 
