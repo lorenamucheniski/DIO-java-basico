@@ -2,10 +2,7 @@
 Curso realizado pela plataforma da DIO(Digital innovation One), com a linguagem Java.
 
 *******
-Tabelas de conteúdo
-  1. [PADRÃO DE NOMENCLATURA]
-
-## PADRÃO DE NOMENCLATURA
+## 1. Padrões de nomenclatura
 Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algumas convenções de escrita. Esses padrões estão expressos nos itens abaixo: 
 
 **- Arquivo .java:** todo arquivo .java deve começar com letra MAIÚSCULA. Se a palavra for comporta, a segunda palavra também deve ser maiúscula. Exemplo:
@@ -31,7 +28,7 @@ Exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa
 - Não podemos usar palavras chave da linguagem.
 - O nome deve ser único dentro de um escopo. 
 
-## 2. TIPOS DE DADOS
+## 2. Tipos de dados
 
 No java, existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Estes tipos de dados são conhecidos como primitivos (Primitive Types).
 
@@ -41,4 +38,9 @@ Os oitos tipos primitivos em java são:
 
 ### Tabela de Tipos Primitivos e seus Valores
 
-  
+|Tipo|Memória|Valor mínimo|Valor máximo|
+|:----:|:----:|:----:|:----:|
+|byte|1 byte|-128|127|
+|short|2 bytes|-32.768|32.767|
+|int|4 bytes|-2.147.483.648|2.147.483.647|
+|long|8 bytes|-9.223.372.036.854.775.808|9.223.372.036.854.775.807|
