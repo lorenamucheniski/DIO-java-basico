@@ -33,4 +33,4 @@ No java, existem algumas palavras reservadas para a representação dos tipos de
 
 Os oitos tipos primitivos em java são:
 
-     int
+     int, byte, short, long, float, double, boolean e char - esses tipos são considerados objetos, e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória (Memory stack).
