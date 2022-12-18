@@ -53,3 +53,21 @@ Os tipos primitivos que podem conter partes fracionárias podem ser representado
 |:---:|:---:|:---:|:---:|
 |float|4 bytes|-3,4028E + 38|3,402E + 38|
 |double|8 bytes|-1,7976E + 308|1,7976 + 308|
+
+Apesar do tipo **float** ocupar metade da memória consumida do que um tipo **double**, ele é menos utilizado. Ele sofre de uma limitação que compromete seu uso em determinadas situações: somente mantém uma precisão decimal entre 6 e 7 dígitos.
+
+Atualmente com os computadores modernos, se tornou desnecessário utilizar os tipos **short** e **byte**, pois não precisamos nos preocupar  tanoto assim com o espaço de memória reduzido. Da mesma forma, dificilmente utilizaremos o tipo long, pois não é tão comum trabalharmos com valores tão grandes.
+
+Portante para representar números, na grande maioria das vezes utilizaremos o tipo **int** para representar números inteiros ou **double** para representar números fracionados.
+
+      Exemplos:
+      1 public Class TipoDados {
+      2         public 
+      3
+      4
+      5
+      6
+      7
+      8
+      9
+      10
