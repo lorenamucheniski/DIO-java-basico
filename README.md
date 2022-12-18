@@ -38,9 +38,18 @@ Os oitos tipos primitivos em java são:
 
 ### Tabela de Tipos Primitivos e seus Valores
 
+Os tipos primitivos de números inteiros podem ser representados por quatro tipos:
+
 |Tipo|Memória|Valor mínimo|Valor máximo|
 |:----:|:----:|:----:|:----:|
 |byte|1 byte|-128|127|
 |short|2 bytes|-32.768|32.767|
 |int|4 bytes|-2.147.483.648|2.147.483.647|
 |long|8 bytes|-9.223.372.036.854.775.808|9.223.372.036.854.775.807|
+
+Os tipos primitivos que podem conter partes fracionárias podem ser representados por dois tipos:
+
+|Tipo|Memória|Mínimo|Máximo|
+|:---:|:---:|:---:|:---:|
+|float|4 bytes|-3,4028E + 38|3,402E + 38|
+|double|8 bytes|-1,7976E + 308|1,7976 + 308|
