@@ -26,3 +26,11 @@ Exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa
 - Não pode conter espaços.
 - Não podemos usar palavras chave da linguagem.
 - O nome deve ser único dentro de um escopo. 
+
+## 2. TIPOS DE DADOS
+
+No java, existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Estes tipos de dados são conhecidos como primitivos (Primitive Types).
+
+Os oitos tipos primitivos em java são:
+
+     int
