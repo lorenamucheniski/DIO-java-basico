@@ -62,12 +62,12 @@ Portante para representar números, na grande maioria das vezes utilizaremos o t
 
       Exemplos:
       1 public Class TipoDados {
-      2         public 
-      3
-      4
-      5
-      6
-      7
-      8
-      9
-      10
+      2         public static void main(String[] args)  {
+      3               byte idade = 123;
+      4               short ano = 2022;
+      5               int cep = 86618000; // se começar com zero talvez tenha que ser ourto tipo
+      6               long cpf = 12345678912; // se começar com zero talvez tenha que ser outro tipo
+      7               float pi = 3.14F; // o tipo float precisa ter o "F" no final, se não ele vai dar erro
+      8               double salario = 1560.56;
+      9         }
+      10 }
