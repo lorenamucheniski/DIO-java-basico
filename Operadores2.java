@@ -8,7 +8,7 @@ public class Operadores2 {
 		
 		System.out.println(numero);
 		
-		numero = numero * -1; 
+		numero = numero * -1;  //transformando número negativo em positivo
 				
 		System.out.println(numero);
 		
