@@ -72,10 +72,20 @@ Portante para representar números, na grande maioria das vezes utilizaremos o t
       9         }
       10 }
       
-## Variáveis e Constantes
+## 3. Variáveis e Constantes
 
 Uma variável é uma área da memória associada a um nome, que pode armazenar valores de um determinado tipo. Um tipo de dado, define um conjunto de valores e um conjunto de opreações . Java é uma linguagem com rigidez de tipos, diferente de linguagens como JavaScript, onde declarar o tipo da variável não é obrigatório.
 
 No Java utilizamos identificadores que representam uma referência(ponteiro) a um valor em memória, e esta referência pode ser redirecionada a outro valor , sendo portanto esta a causa do nome **variável**, pois o valor pode variar. 
 
 Já as **constantes** são valores armazenados em memória que não podem ser modificados depois de declarados. Em Java, esses valores são representados pela palavra reservada **_final_**, seguida do tipo. Por convenção, Constantes são sempre escritas em CAIXA ALTA. 
+
+## 4. Operador Tenário
+
+O operador de condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. 
+
+O operador ternário é representado pelos símbolos **"?:"** utilizados na seguinte estrutura de sintaxe:
+
+      <Expressão Condicional> ? <Caso condição seja true> : <Caso condição seja false>
+      
+
