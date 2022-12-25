@@ -80,7 +80,7 @@ No Java utilizamos identificadores que representam uma referência(ponteiro) a u
 
 Já as **constantes** são valores armazenados em memória que não podem ser modificados depois de declarados. Em Java, esses valores são representados pela palavra reservada **_final_**, seguida do tipo. Por convenção, Constantes são sempre escritas em CAIXA ALTA. 
 
-## 4. Operador Tenário
+## 4. Operador Ternário
 
 O operador de condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. 
 
