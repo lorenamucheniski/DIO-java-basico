@@ -22,7 +22,7 @@ Exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa
 **RECOMENDAÇÕES:** Para declarar uma variável nós podemos utilizar caracteres, números e símbolos, porém devemos seguir algumas regras da linguagem, como:
 
 - Deve conter apenas letras, underline , $ ou os números de 0 a 9.
-- Deve obrigatoriamente se iniciar com uma letra(preferencialmente, underline ou $, jamais com número.
+- Deve obrigatoriamente se iniciar com uma letra (preferencialmente), underline ou $, jamais com número.
 - Deve iniciar com uma letra minúscula.
 - Não pode conter espaços.
 - Não podemos usar palavras chave da linguagem.
