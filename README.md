@@ -88,4 +88,15 @@ O operador ternário é representado pelos símbolos **"?:"** utilizados na segu
 
       <Expressão Condicional> ? <Caso condição seja true> : <Caso condição seja false>
       
+## 5. Operadores Relacionais
 
+Os operadores relacionais avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual , diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano como resultado.
+
+|Símbolo|Nome do Operador|Significado|
+|:---:|:---:|:---:|
+|==|Igual à|Quando desejamos verificar se uma variável é igual a outra|
+|!=|Diferente|Quando desejamos verificar se uma variável é diferente da outra|
+|>|Maior|Quando desejamos verificar se uma variável é maior que a outra|
+|>=|Maior ou Igual|Quando desejamos verificar se uma variável é maior ou igual a outra|
+|<|Menor|Quando desejamos verificar se uma variável é menor que a outra|
+|<=|Menor ou Igual|Quando desejamos verificar se uma variável é menor ou igual a outra|
