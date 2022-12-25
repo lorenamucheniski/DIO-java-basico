@@ -90,7 +90,7 @@ O operador ternário é representado pelos símbolos **"?:"** utilizados na segu
       
 ## 5. Operadores Relacionais
 
-Os operadores relacionais avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual , diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano como resultado.
+Os operadores relacionais avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual , diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano como resultado. 
 
 |Símbolo|Nome do Operador|Significado|
 |:---:|:---:|:---:|
@@ -100,3 +100,14 @@ Os operadores relacionais avaliam a relação entre duas variáveis ou expressõ
 |>=|Maior ou Igual|Quando desejamos verificar se uma variável é maior ou igual a outra|
 |<|Menor|Quando desejamos verificar se uma variável é menor que a outra|
 |<=|Menor ou Igual|Quando desejamos verificar se uma variável é menor ou igual a outra|
+
+Lembrando que os operados relacionais são mais utilizados com variáveis numéricas.
+
+## 6. Operadores Lógicos
+
+Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões.
+
+      > && Operador lógico "E";
+      > || Operador lógico "OU";
+
+
