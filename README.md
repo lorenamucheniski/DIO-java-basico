@@ -143,5 +143,3 @@ Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáv
 
 Caso você declare uma variável dentro de um método, o escopo dessa variável está limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.
 
-
-
