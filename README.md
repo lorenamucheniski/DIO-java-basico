@@ -107,7 +107,32 @@ Lembrando que os operados relacionais são mais utilizados com variáveis numér
 
 Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões.
 
-      > && Operador lógico "E";
-      > || Operador lógico "OU";
+     -> && Operador lógico "E";
+     -> || Operador lógico "OU";
+      
+## 7. Métodos
+
+Uma classe é definida por atributos e métodos. Já vimos que atributos são, em sua grande maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem a funções ou sub-rotinas dísponiveis dentro de nossas classes. 
+
+#### Critério de nomeação de Métodos
+
+Esses critérios não são obrigatórios, mas é recomendável que sejam seguidos, pois essas convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa. Ao seguir essas convenções, tornamos o código mais legível para nós e também para outras pessoas. Para Métodos, os critérios são:
+
+    -> Deve ser nomeado como verbo, ou seja, no infinitivo (ar, er, ir)
+    -> Seguir o padrão camelCase (todas as letras mínusculas com exceção da primeira letra da segunda palavra)
+    
+**Obs: não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.**
+
+#### Critério de definição dos Métodos
+
+Mas, como sabemos a melhor forma de definir os métodos das nossas classes? Para chegar a essa conclusão, somos auxiliados por uma convenção estrutural para todos os métodos. Essa convenção é determinada pelos aspectos abaixo:
+
+   1 - **Qual a proposta principal do método?** Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
+   
+   2 - **Qual o tipo de retorno esperado após executar o método?** Você deve analisar se o método será responsável por retornar algum valor ou não.
+   
+   **Caso o método não retorne nenhum valor, ele será representado pela palavra-chave void.**
+
+
 
 
