@@ -22,7 +22,7 @@ Exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis dessa
 **RECOMENDAÇÕES:** Para declarar uma variável nós podemos utilizar caracteres, números e símbolos, porém devemos seguir algumas regras da linguagem, como:
 
 - Deve conter apenas letras, underline , $ ou os números de 0 a 9.
-- Deve obrigatoriamente se iniciar com uma letra(preferencialmente, underline ou $, jamais com número.
+- Deve obrigatoriamente se iniciar com uma letra (preferencialmente), underline ou $, jamais com número.
 - Deve iniciar com uma letra minúscula.
 - Não pode conter espaços.
 - Não podemos usar palavras chave da linguagem.
@@ -80,7 +80,7 @@ No Java utilizamos identificadores que representam uma referência(ponteiro) a u
 
 Já as **constantes** são valores armazenados em memória que não podem ser modificados depois de declarados. Em Java, esses valores são representados pela palavra reservada **_final_**, seguida do tipo. Por convenção, Constantes são sempre escritas em CAIXA ALTA. 
 
-## 4. Operador Tenário
+## 4. Operador Ternário
 
 O operador de condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha. 
 
@@ -90,7 +90,7 @@ O operador ternário é representado pelos símbolos **"?:"** utilizados na segu
       
 ## 5. Operadores Relacionais
 
-Os operadores relacionais avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual , diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano como resultado.
+Os operadores relacionais avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual , diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano como resultado. 
 
 |Símbolo|Nome do Operador|Significado|
 |:---:|:---:|:---:|
@@ -100,3 +100,39 @@ Os operadores relacionais avaliam a relação entre duas variáveis ou expressõ
 |>=|Maior ou Igual|Quando desejamos verificar se uma variável é maior ou igual a outra|
 |<|Menor|Quando desejamos verificar se uma variável é menor que a outra|
 |<=|Menor ou Igual|Quando desejamos verificar se uma variável é menor ou igual a outra|
+
+Lembrando que os operados relacionais são mais utilizados com variáveis numéricas.
+
+## 6. Operadores Lógicos
+
+Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões.
+
+     -> && Operador lógico "E";
+     -> || Operador lógico "OU";
+      
+## 7. Métodos
+
+Uma classe é definida por atributos e métodos. Já vimos que atributos são, em sua grande maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem a funções ou sub-rotinas dísponiveis dentro de nossas classes. 
+
+#### Critério de nomeação de Métodos
+
+Esses critérios não são obrigatórios, mas é recomendável que sejam seguidos, pois essas convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa. Ao seguir essas convenções, tornamos o código mais legível para nós e também para outras pessoas. Para Métodos, os critérios são:
+
+    -> Deve ser nomeado como verbo, ou seja, no infinitivo (ar, er, ir)
+    -> Seguir o padrão camelCase (todas as letras mínusculas com exceção da primeira letra da segunda palavra)
+    
+**Obs: não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.**
+
+#### Critério de definição dos Métodos
+
+Mas, como sabemos a melhor forma de definir os métodos das nossas classes? Para chegar a essa conclusão, somos auxiliados por uma convenção estrutural para todos os métodos. Essa convenção é determinada pelos aspectos abaixo:
+
+   1 - **Qual a proposta principal do método?** Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
+   
+   2 - **Qual o tipo de retorno esperado após executar o método?** Você deve analisar se o método será responsável por retornar algum valor ou não.
+   
+   **Caso o método não retorne nenhum valor, ele será representado pela palavra-chave void.**
+
+
+
+
