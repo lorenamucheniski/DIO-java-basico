@@ -152,3 +152,10 @@ Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáv
 
 Caso você declare uma variável dentro de um método, o escopo dessa variável está limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.
 
+## 9. Terminal e argumentos
+
+Nem sempre executamos nosso programa java pela IDE. Com a JVM devidamente configurada, nós podemos criar um executável do nosso programa e disponibilizar o instalador para qualquer sistema operacional. Também é possível executar um programa java via terminal como MS - DOS ou terminal do VsCode. 
+
+### Executando um programa pelo terminal
+
+Todo projeto java criado por uma IDE, possui por padrão, uma pasta chamada **bin**. É nessa pasta que ficarão os arquivos .class, o nosso bytecode.
