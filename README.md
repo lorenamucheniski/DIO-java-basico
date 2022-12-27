@@ -158,4 +158,16 @@ Nem sempre executamos nosso programa java pela IDE. Com a JVM devidamente config
 
 ### Executando um programa pelo terminal
 
-Todo projeto java criado por uma IDE, possui por padrão, uma pasta chamada **bin**. É nessa pasta que ficarão os arquivos .class, o nosso bytecode.
+Todo projeto java criado por uma IDE, possui por padrão, uma pasta chamada **bin**. É nessa pasta que ficarão os arquivos .class, o nosso bytecode. Mesmo usando uma IDE nós sempre precisaremos identificar onde se encontram as classes do nosso projeto.
+
+Vamos ilustrar como executar uma classe, depois de compilada, sem precisar usar a IDE.
+
+1 - Localize o diretório do seu projeto;
+
+2 - Entre na pasta bin;
+
+3 - Abra o MS - DOS dentro da pasta;
+
+4 - Digite "dir" sem as aspas para poder visualizar os arquivos;
+
+5 - Agora digite o comando: **java MinhaClasse** (nome da sua classe sem a extensão .class).
