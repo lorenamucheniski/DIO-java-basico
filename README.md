@@ -172,6 +172,10 @@ Vamos ilustrar como executar uma classe, depois de compilada, sem precisar usar 
 
 5 - Agora digite o comando: **java MinhaClasse** (nome da sua classe sem a extensão .class). Ficará assim:
 
-![](img/bin.png)
+### Argumentos
 
+Quando executamos uma classe que contenha o método main, o mesmo permite que passemos um array [ ] de argumentos do tipo String. Logo podemos após a definição da classe a ser executada informar estes parâmetros. Exemplo:
 
+     1 java MinhaClasse argumentoUm argumentoDois
+     
+     
