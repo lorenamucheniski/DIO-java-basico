@@ -152,7 +152,14 @@ Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáv
 
 Caso você declare uma variável dentro de um método, o escopo dessa variável está limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.
 
-## 9. Terminal e argumentos
+
+## 9. Palavras reservadas
+
+Palavras reservadas são identificadores de uma linguagem que já possuem uma finalidade específica, portanto não podem ser utilizadas para nomear variáveis, classes, métodos, ou atributos. 
+
+A linguagem java possui 52 palavras reservadas. Todas essas palavras
+
+## 10. Terminal e argumentos
 
 Nem sempre executamos nosso programa java pela IDE. Com a JVM devidamente configurada, nós podemos criar um executável do nosso programa e disponibilizar o instalador para qualquer sistema operacional. Também é possível executar um programa java via terminal como MS - DOS ou terminal do VsCode. 
 
