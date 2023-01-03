@@ -201,7 +201,14 @@ A linguagem java possui 52 palavras reservadas. Todas essas palavras são classi
 - assert: testa uma expressão condicional para verificar uma suposição do programador
 - catch: declara o bloco de código usando para tratar uma exceção
 - finally: bloco de código, após um try-catch, que é executado independentemente do fluxo do programa seguido ao lidar com uma exceção
+- throw: usado para passar uma exceção para o método que o chamou
+- throws: indica que um método pode passar uma exceção para o método que o chamou 
+- try: bloco de código que tentará ser executado, mas que pode causar uma exceção
 
+**Variáveis de referência**
+
+- super: refere-se a superclasse imediata
+- this: refere-se a instância atual do objeto 
 
 ## 10. Terminal e argumentos
 
