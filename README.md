@@ -159,17 +159,47 @@ Palavras reservadas são identificadores de uma linguagem que já possuem uma fi
 
 A linguagem java possui 52 palavras reservadas. Todas essas palavras são classificadas em grupos e escritas com letra minúscula, sendo identificadas com uma cor especial pela maioria das IDE's. Abaixo, temos as listas das palavras agrupadas por suas finalidades:
 
-|Finalidade|Palavra|
-|:---:|:---:|
-|Controle de pacotes|import: importa pacotes ou classes para dentro do código|
-|Controle de pacotes|package: especifica a que pacote todas as classes de um arquivo pertencem|
-|Modificadores de acesso|public: acesso a qualquer classe|
-|Modificadores de acesso|private: acesso apenas dentro da classe|
-|Modificadores de acesso|protected: acesso por classes no mesmo pacote e subclasses|
-|Tipos primitivos|boolean, byte, char, double, float, int, long, short, void|
-|Modificadores de classes, variáveis ou métodos|abstract: classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata|
-|Modificadores de classes, variáveis ou métodos|class: especifica uma classe|
-|Modificadores de classes, variáveis ou métodos|extends: indica a superclasse que a subclasse está estendendo|
+**Controle de pacotes**
+
+- import: importa pacotes ou classes para dentro do código
+
+- package: especifica a que pacote todas as classes de um arquivo pertencem
+
+**Modificadores de acesso**
+
+- public: acesso a qualquer classe
+
+- private: acesso apenas dentro da classe
+
+- protected: acesso por classes no mesmo pacote e subclasses
+
+**Tipos primitivos**
+
+- boolean, byte, char, double, float, int, long, short, void
+
+**Modificadores de classes, variáveis ou métodos**
+
+- abstract: classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata
+
+- class: especifica uma classe
+
+- extends: indica a superclasse que a subclasse está estendendo
+
+- final: impossibilita que uma classe seja estendida, que um método seja sobrescrito ou que uma variável seja reinicializada
+
+- implements: indica as interfaces que uma classe irá implementar
+
+- interface: especifica uma interface
+
+- native: indica que um método está escrito em uma linguagem dependente da plataforma, como o C
+
+- new: instancia um novo objeto, chamando seu construtor 
+
+- static: faz um método ou variável pertence à classe ao invés de às instâncias 
+
+- strictfp: usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões
+
+-synchronized: indica que um método só pode ser acessado por uma thread de cada vez
 
 ## 10. Terminal e argumentos
 
