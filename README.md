@@ -186,7 +186,29 @@ A linguagem java possui 52 palavras reservadas. Todas essas palavras são classi
 - new: instancia um novo objeto, chamando seu construtor 
 - static: faz um método ou variável pertence à classe ao invés de às instâncias 
 - strictfp: usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões
--synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+- synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+- transient: impede a serialização de campos
+- volatile: indica que uma variável pode ser alterada durante o uso de threads
+
+**Controle de fluxo dentro de um bloco de código**
+
+- break: sai do bloco de código em que ele está
+- case: executa um bloco de código dependendo do teste do switch 
+- continue: pula a execução do código que viria após essa linha e vai para a próxima passagem do loop
+
+**Tratamentos de erro**
+
+- assert: testa uma expressão condicional para verificar uma suposição do programador
+- catch: declara o bloco de código usando para tratar uma exceção
+- finally: bloco de código, após um try-catch, que é executado independentemente do fluxo do programa seguido ao lidar com uma exceção
+- throw: usado para passar uma exceção para o método que o chamou
+- throws: indica que um método pode passar uma exceção para o método que o chamou 
+- try: bloco de código que tentará ser executado, mas que pode causar uma exceção
+
+**Variáveis de referência**
+
+- super: refere-se a superclasse imediata
+- this: refere-se a instância atual do objeto 
 
 ## 10. Terminal e argumentos
 
