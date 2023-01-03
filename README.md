@@ -188,6 +188,7 @@ A linguagem java possui 52 palavras reservadas. Todas essas palavras são classi
 - strictfp: usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões
 - synchronized: indica que um método só pode ser acessado por uma thread de cada vez
 - transient: impede a serialização de campos
+- volatile: indica que uma variável pode ser alterada durante o uso de threads
 
 
 ## 10. Terminal e argumentos
