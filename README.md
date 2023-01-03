@@ -186,7 +186,9 @@ A linguagem java possui 52 palavras reservadas. Todas essas palavras são classi
 - new: instancia um novo objeto, chamando seu construtor 
 - static: faz um método ou variável pertence à classe ao invés de às instâncias 
 - strictfp: usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões
--synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+- synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+- transient: impede a serialização de campos
+
 
 ## 10. Terminal e argumentos
 
