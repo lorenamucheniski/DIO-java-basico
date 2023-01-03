@@ -190,6 +190,18 @@ A linguagem java possui 52 palavras reservadas. Todas essas palavras são classi
 - transient: impede a serialização de campos
 - volatile: indica que uma variável pode ser alterada durante o uso de threads
 
+**Controle de fluxo dentro de um bloco de código**
+
+- break: sai do bloco de código em que ele está
+- case: executa um bloco de código dependendo do teste do switch 
+- continue: pula a execução do código que viria após essa linha e vai para a próxima passagem do loop
+
+**Tratamentos de erro**
+
+- assert: testa uma expressão condicional para verificar uma suposição do programador
+- catch: declara o bloco de código usando para tratar uma exceção
+- finally: bloco de código, após um try-catch, que é executado independentemente do fluxo do programa seguido ao lidar com uma exceção
+
 
 ## 10. Terminal e argumentos
 
