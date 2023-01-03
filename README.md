@@ -152,7 +152,43 @@ Em uma Classe, podemos visualizar a diferença de escopos. Os atributos (variáv
 
 Caso você declare uma variável dentro de um método, o escopo dessa variável está limitado apenas ao corpo desse método, ou seja, dentro das chaves que limitam o método.
 
-## 9. Terminal e argumentos
+
+## 9. Palavras reservadas
+
+Palavras reservadas são identificadores de uma linguagem que já possuem uma finalidade específica, portanto não podem ser utilizadas para nomear variáveis, classes, métodos, ou atributos. 
+
+A linguagem java possui 52 palavras reservadas. Todas essas palavras são classificadas em grupos e escritas com letra minúscula, sendo identificadas com uma cor especial pela maioria das IDE's. Abaixo, temos as listas das palavras agrupadas por suas finalidades:
+
+**Controle de pacotes**
+
+- import: importa pacotes ou classes para dentro do código
+- package: especifica a que pacote todas as classes de um arquivo pertencem
+
+**Modificadores de acesso**
+
+- public: acesso a qualquer classe
+- private: acesso apenas dentro da classe
+- protected: acesso por classes no mesmo pacote e subclasses
+
+**Tipos primitivos**
+
+- boolean, byte, char, double, float, int, long, short, void
+
+**Modificadores de classes, variáveis ou métodos**
+
+- abstract: classe que não pode ser instanciada ou método que precisa ser implementado por uma subclasse não abstrata
+- class: especifica uma classe
+- extends: indica a superclasse que a subclasse está estendendo
+- final: impossibilita que uma classe seja estendida, que um método seja sobrescrito ou que uma variável seja reinicializada
+- implements: indica as interfaces que uma classe irá implementar
+- interface: especifica uma interface
+- native: indica que um método está escrito em uma linguagem dependente da plataforma, como o C
+- new: instancia um novo objeto, chamando seu construtor 
+- static: faz um método ou variável pertence à classe ao invés de às instâncias 
+- strictfp: usado em frente a um método ou classe para indicar que os números de ponto flutuante seguirão as regras de ponto flutuante em todas as expressões
+-synchronized: indica que um método só pode ser acessado por uma thread de cada vez
+
+## 10. Terminal e argumentos
 
 Nem sempre executamos nosso programa java pela IDE. Com a JVM devidamente configurada, nós podemos criar um executável do nosso programa e disponibilizar o instalador para qualquer sistema operacional. Também é possível executar um programa java via terminal como MS - DOS ou terminal do VsCode. 
 
@@ -178,5 +214,20 @@ Quando executamos uma classe que contenha o método main, o mesmo permite que pa
 
      1 java MinhaClasse argumentoUm argumentoDois
      
+## 11. Controle de fluxo 
+
+Os controles de fluxo são estruturas que tem capacidade de direcionar o fluxo de execução do código. 
+
+Os tipos de controle de fluxo são:
+
+- Decisão: if, if-else, if-else-if, switch e operador ternário
+- Repetição: for, while, do while
+- Interrupção: break, continue e return
+
+
+
+
+
+
 
      
