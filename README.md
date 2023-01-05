@@ -242,9 +242,32 @@ Os controles de fluxo são estruturas que tem capacidade de direcionar o fluxo d
 
 Os tipos de controle de fluxo são:
 
-- Decisão: if, if-else, if-else-if, switch e operador ternário
-- Repetição: for, while, do while
-- Interrupção: break, continue e return
+      - Decisão: if, if-else, if-else-if, switch e operador ternário
+      - Repetição: for, while, do while
+      - Interrupção: break, continue e return
+
+**If**
+
+A declaração if em java testa uma condição. Executa o bloco se o bloco a condição for true (verdadeira).Sintaxe:
+
+      1 if (condição){
+      2    //código que será executado
+      3 }
+      4
+      
+Exemplo:
+
+      1 //definindo uma variável 'idade'
+      2 int idade = 20;
+      3 //checando a idade
+      4 if (idade > 18) {
+      5     System.out.println("Idade é maior que 18.)
+      6 }
+      
+      - Nesse caso a condição é true, ou seja, a idade é maior que 18, então o bloco if será executado exibindo a mensagem 
+      "Idade é maior que 18.".
+
+
 
 
 
