@@ -248,7 +248,7 @@ Os tipos de controle de fluxo são:
 
 **If**
 
-A declaração if em java testa uma condição. Executa o bloco se o bloco a condição for true (verdadeira).Sintaxe:
+A declaração if em java testa uma condição. Executa o bloco se o bloco da condição for true (verdadeira).Sintaxe:
 
       1 if (condição){
       2    //código que será executado
@@ -261,12 +261,42 @@ Exemplo:
       2 int idade = 20;
       3 //checando a idade
       4 if (idade > 18) {
-      5     System.out.println("Idade é maior que 18.)
+      5     System.out.println("Idade é maior que 18.")
       6 }
       
       - Nesse caso a condição é true, ou seja, a idade é maior que 18, então o bloco if será executado exibindo a mensagem 
       "Idade é maior que 18.".
 
+**If-else**
+
+A estrutura condicional if/else permite ao programa avaliar uma expressão como sendo true(verdadeira) ou false(falsa) e, de acordo com o resultado dessa verificação, executar um ou outro bloco. Sintaxe:
+
+      1 if (condição){
+      2     //código que será executado
+      3 } else {
+      4     //código que será executado
+      5 }
+      
+Exemplo:
+
+      1 int idade = 20;
+      2 if (idade > 18) {
+      3     System.out.println("Idade é maior que 18.")
+      4 } else {
+      5     System.out.println("Idade é menor que 18.")
+      6 }
+      
+      - Nesse caso se a minha condição true (idade maior que 18) não for atendida, então será executado o segundo bloco de código.
+      
+**Switch**
+
+O switch case Java é uma estrutura muito importante para testar condições de uma forma simples e intuitiva, reduzindo a necessidade de criar blocos de código complexos usando vários if else encadeados. A estrutura switch case trabalha com vários tipos de dados, como byte, short, long, string, int, enum, entre outros.
+O funcionamento da estrutura switch é bastante simples. Inicialmente, o valor da variável passada no switch é comparado com os valores fornecidos em cada case. Se um desses valores for igual ao valor da variável, o bloco de código do case em questão será executado.
+
+As comparações da estrutura switch são sempre feitas de forma sequencial e não há limite para a quantidade de cases que cada switch pode ter. Além disso, a estrutura switch também pode conter as declarações opcionais “break” e “default”.
+      
+      
+      
 
 
 
