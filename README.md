@@ -141,6 +141,23 @@ Mas, como sabemos a melhor forma de definir os métodos das nossas classes? Para
    2 - **Qual o tipo de retorno esperado após executar o método?** Você deve analisar se o método será responsável por retornar algum valor ou não.
    
    **Caso o método não retorne nenhum valor, ele será representado pela palavra-chave void.**
+   
+#### Padrão de definição
+
+Um método pode ter:
+      
+      <?visibilidade?><?tipo?><?modificador?><retorno><nome>(<?parâmetros?>)<?exceções?><corpo>
+      
+Alguns exemplos dos itens acima que estão no padrão de definição:
+
+**Visibilidade:**: public, protect ou private
+**Tipo:**: concreto ou abstrato
+**Modificador:** static ou final 
+**Retorno:** tipo de dado ou void
+**Nome:** nome que é fornecido ao método
+**Parâmetros:** parâmetros que pode receber 
+**Exceções:** exceções que pode lançar 
+**Corpo:** código que passui ou vazio
 
 ## 8. Escopo
 
