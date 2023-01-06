@@ -293,7 +293,21 @@ Exemplo:
 O switch case Java é uma estrutura muito importante para testar condições de uma forma simples e intuitiva, reduzindo a necessidade de criar blocos de código complexos usando vários if else encadeados. A estrutura switch case trabalha com vários tipos de dados, como byte, short, long, string, int, enum, entre outros.
 O funcionamento da estrutura switch é bastante simples. Inicialmente, o valor da variável passada no switch é comparado com os valores fornecidos em cada case. Se um desses valores for igual ao valor da variável, o bloco de código do case em questão será executado.
 
-As comparações da estrutura switch são sempre feitas de forma sequencial e não há limite para a quantidade de cases que cada switch pode ter. Além disso, a estrutura switch também pode conter as declarações opcionais “break” e “default”.
+As comparações da estrutura switch são sempre feitas de forma sequencial e não há limite para a quantidade de cases que cada switch pode ter. Além disso, a estrutura switch também pode conter as declarações opcionais “break” e “default”. Sintaxe:
+
+      1 switch (expressão) {
+      2     case (expressão1):
+      3         //bloco de código que será executado;
+      4         break;
+      5     case (expressão2):
+      6         //bloco de código que será executado;
+      7         break;
+      8     case (expressão3):
+      9         //bloco de código que será executado;
+      10        break;
+      11    default:
+      12        //bloco de código que será executado se nenhum dos cases for aceito;
+      13 }
       
       
       
