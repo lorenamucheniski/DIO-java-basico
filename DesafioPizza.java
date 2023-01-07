@@ -10,7 +10,7 @@ public class DesafioPizza {
 		    
 		    System.out.println("Quantos testes? ");
 		    int T = input.nextInt();
-		    while (i <= T) {
+		    while (i < T) {
 		    	i++;
 		    	System.out.println("Quantas pessoas? ");
 		    	float pessoas = input.nextInt();
@@ -20,8 +20,7 @@ public class DesafioPizza {
 		    float A = (pessoas * pedaco)/ SLICE;
 		    int B = (int)Math.ceil(A);
 		    
-		    System.out.println((B));
-		    break;
+		    System.out.println("Serão nescessárias " + B + " pizzas.");
 		    } 	
 		    
 		    
