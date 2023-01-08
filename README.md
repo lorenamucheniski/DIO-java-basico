@@ -159,6 +159,7 @@ Alguns exemplos dos itens acima que estão no padrão de definição:
 **Exceções:** exceções que pode lançar 
 **Corpo:** código que passui ou vazio
 
+
 ## 8. Escopo
 
 O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
