@@ -151,12 +151,19 @@ Um método pode ter:
 Alguns exemplos dos itens acima que estão no padrão de definição:
 
 **Visibilidade:**: public, protect ou private
+
 **Tipo:**: concreto ou abstrato
+
 **Modificador:** static ou final 
+
 **Retorno:** tipo de dado ou void
+
 **Nome:** nome que é fornecido ao método
+
 **Parâmetros:** parâmetros que pode receber 
+
 **Exceções:** exceções que pode lançar 
+
 **Corpo:** código que passui ou vazio
 
 
@@ -246,7 +253,7 @@ Vamos ilustrar como executar uma classe, depois de compilada, sem precisar usar 
 
 4 - Digite "dir" sem as aspas para poder visualizar os arquivos;
 
-5 - Agora digite o comando: **java MinhaClasse** (nome da sua classe sem a extensão .class). Ficará assim:
+5 - Agora digite o comando: **java MinhaClasse** (nome da sua classe sem a extensão .class).
 
 ### Argumentos
 
