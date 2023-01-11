@@ -2,7 +2,7 @@
 Curso realizado pela plataforma da DIO(Digital innovation One), com a linguagem Java.
 
 *******
-ÍNDICE
+*ÍNDICE*
 
 1. Padrões de nomenclatura
 2. Tipos de dados
@@ -15,7 +15,7 @@ Curso realizado pela plataforma da DIO(Digital innovation One), com a linguagem 
 9. Palavras reservadas
 10. Terminal e argumentos
 11. Controle de fluxo 
-11. Controle de fluxo 
+12. Orientação a objetos
 
 
 *******
@@ -394,7 +394,7 @@ As comparações da estrutura switch são sempre feitas de forma sequencial e n�
       13 }
       
       
- ## 11. Controle de fluxo 
+ ## 12. Orientação a objetos
  
  A orientação a Objetos é um paradigma de análise, projeto e programação de sistemas de software, baseado na composição e interação entre diversas unidades de software chamados de objetos. 
  
