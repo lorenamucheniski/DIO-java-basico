@@ -2,6 +2,23 @@
 Curso realizado pela plataforma da DIO(Digital innovation One), com a linguagem Java.
 
 *******
+ÍNDICE
+
+1. Padrões de nomenclatura
+2. Tipos de dados
+3. Variáveis e Constantes
+4. Operador Ternário
+5. Operadores Relacionais
+6. Operadores Lógicos
+7. Métodos
+8. Escopo
+9. Palavras reservadas
+10. Terminal e argumentos
+11. Controle de fluxo 
+11. Controle de fluxo 
+
+
+*******
 ## 1. Padrões de nomenclatura
 Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algumas convenções de escrita. Esses padrões estão expressos nos itens abaixo: 
 
@@ -377,7 +394,7 @@ As comparações da estrutura switch são sempre feitas de forma sequencial e n�
       13 }
       
       
- ## 12. Orientação a objetos
+ ## 11. Controle de fluxo 
  
  A orientação a Objetos é um paradigma de análise, projeto e programação de sistemas de software, baseado na composição e interação entre diversas unidades de software chamados de objetos. 
  
