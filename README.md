@@ -379,6 +379,16 @@ As comparações da estrutura switch são sempre feitas de forma sequencial e n�
       
  ## 12. Orientação a objetos
  
+ A orientação a Objetos é um paradigma de análise, projeto e programação de sistemas de software, baseado na composição e interação entre diversas unidades de software chamados de objetos. 
+ 
+ ### Fundamentos
+ 
+ Os fundamentos da orientação a objetos, são três: abstração, reuso e encapsulamento.
+ 
+ - Abstração: processo pelo qual se isolam características de um objeto, considerando os que tenham em comum certos grupos de objetos. A abstração é a capacidade de pensarmos nas características mais essenciais, o que mais pode ser reusado. 
+- Reuso: capacidade de criar novas unidades de código a partir de outras já existentes. 
+- Encapsulamento: Capacidade de esconder complexidades e proteger dados. 
+ 
  
       
       
