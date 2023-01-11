@@ -123,7 +123,7 @@ Os operadores lógicos representam o recurso que nos permite criar expressões l
 
 Uma classe é definida por atributos e métodos. Já vimos que atributos são, em sua grande maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem a funções ou sub-rotinas dísponiveis dentro de nossas classes. 
 
-#### Critério de nomeação de Métodos
+### Critério de nomeação de Métodos
 
 Esses critérios não são obrigatórios, mas é recomendável que sejam seguidos, pois essas convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa. Ao seguir essas convenções, tornamos o código mais legível para nós e também para outras pessoas. Para Métodos, os critérios são:
 
@@ -132,7 +132,7 @@ Esses critérios não são obrigatórios, mas é recomendável que sejam seguido
     
 **Obs: não existe em Java o conceito de métodos globais. Todos os métodos devem SEMPRE ser definidos dentro de uma classe.**
 
-#### Critério de definição dos Métodos
+### Critério de definição dos Métodos
 
 Mas, como sabemos a melhor forma de definir os métodos das nossas classes? Para chegar a essa conclusão, somos auxiliados por uma convenção estrutural para todos os métodos. Essa convenção é determinada pelos aspectos abaixo:
 
@@ -142,7 +142,7 @@ Mas, como sabemos a melhor forma de definir os métodos das nossas classes? Para
    
    **Caso o método não retorne nenhum valor, ele será representado pela palavra-chave void.**
    
-#### Padrão de definição
+### Padrão de definição
 
 Um método pode ter:
       
@@ -166,7 +166,7 @@ Alguns exemplos dos itens acima que estão no padrão de definição:
 
 **Corpo:** código que passui ou vazio
 
-#### Sobrecarga de métodos
+### Sobrecarga de métodos
 
 A sobrecarga de métodos (overload) é um conceito do polimorfismo que consiste basicamente em criar variações de um mesmo método, ou seja, a criação de dois ou mais métodos com nomes totalmente iguais em uma classe. A Sobrecarga permite que utilizemos o mesmo nome em mais de um método contanto que suas listas de argumentos sejam diferentes para que seja feita a separação dos mesmos.
 
@@ -184,7 +184,12 @@ Para entender melhor a sobrecarga, vamos pensar que estamos implementando uma ca
      10 }
      
 A classe calculadora possui três métodos que somam dois valores do mesmo tipo, porém, os mesmos possuem o mesmo nome, então, como vamos saber se o programa principal vai chamar o método correto ao convocarmos o calcula()?. O programa, ao receber o calcula() com os parâmetros passados, verificará na classe calculadora no tempo de execução qual dos seguintes métodos está implementado para receber o parâmetro e convocará o mesmo.     
-    
+
+### Return: Retornando informações úteis em Java
+
+Embora seja possível não retornar nada dos métodos (como simplesmente mostrar uma mensagem ou um menu de opções), o mais comum é que os métodos retornem algo.
+
+Por exemplo, uma soma. O método pode ser simplesmente um trecho de código que calcula a soma de dois números e retorna esse resultado. Ou pode ser um método que recebe os coeficientes de uma equação do segundo grau e retorna suas raízes. O retorno pode ser um inteiro, um float, uma string, pode ser simplesmente uma decisão (como um boolean) ou outra coisa mais elaborada que você desejar.
  
 ## 8. Escopo
 
