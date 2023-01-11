@@ -190,6 +190,24 @@ A classe calculadora possui três métodos que somam dois valores do mesmo tipo,
 Embora seja possível não retornar nada dos métodos (como simplesmente mostrar uma mensagem ou um menu de opções), o mais comum é que os métodos retornem algo.
 
 Por exemplo, uma soma. O método pode ser simplesmente um trecho de código que calcula a soma de dois números e retorna esse resultado. Ou pode ser um método que recebe os coeficientes de uma equação do segundo grau e retorna suas raízes. O retorno pode ser um inteiro, um float, uma string, pode ser simplesmente uma decisão (como um boolean) ou outra coisa mais elaborada que você desejar.
+
+Exemplos do que o **return** pode retornar:
+
+      String: 1 public String getMenssagem(){
+              2 return "Olá!";
+              3 }
+              
+      Double: 1 public double getJuros(){
+              2 return 2.36;
+              3 }  
+              
+      Int:    1 public int getParcelas(){
+              2 return 4;
+              3 }        
+ 
+      Sem retorno : 1 public void executar(){
+                    2 return; // 
+                    3 }
  
 ## 8. Escopo
 
