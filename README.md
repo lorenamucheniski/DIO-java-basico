@@ -166,7 +166,26 @@ Alguns exemplos dos itens acima que estão no padrão de definição:
 
 **Corpo:** código que passui ou vazio
 
+#### Sobrecarga de métodos
 
+A sobrecarga de métodos (overload) é um conceito do polimorfismo que consiste basicamente em criar variações de um mesmo método, ou seja, a criação de dois ou mais métodos com nomes totalmente iguais em uma classe. A Sobrecarga permite que utilizemos o mesmo nome em mais de um método contanto que suas listas de argumentos sejam diferentes para que seja feita a separação dos mesmos.
+
+Para entender melhor a sobrecarga, vamos pensar que estamos implementando uma calculadora simples que some apenas dois valores do mesmo tipo por vez. Nela teremos o método calcula que será sobrecarregado com variações de tipos de soma, como o exemplo a seguir:
+
+      1 public class calculadora{
+      2 public int calcula( int a, int b) {
+      3 return a+b;
+      4 }
+      5 public double calcula( double a, double b) {
+      6 return a+b;
+      7 }
+      8 public String calcula( String a, String b) {
+      9 return a+b;
+     10 }
+     
+A classe calculadora possui três métodos que somam dois valores do mesmo tipo, porém, os mesmos possuem o mesmo nome, então, como vamos saber se o programa principal vai chamar o método correto ao convocarmos o calcula()?. O programa, ao receber o calcula() com os parâmetros passados, verificará na classe calculadora no tempo de execução qual dos seguintes métodos está implementado para receber o parâmetro e convocará o mesmo.     
+    
+ 
 ## 8. Escopo
 
 O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
