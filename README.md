@@ -393,7 +393,6 @@ As comparações da estrutura switch são sempre feitas de forma sequencial e n�
       12        //bloco de código que será executado se nenhum dos cases for aceito;
       13 }
       
-      
  ## 12. Orientação a objetos
  
  A orientação a Objetos é um paradigma de análise, projeto e programação de sistemas de software, baseado na composição e interação entre diversas unidades de software chamados de objetos. 
