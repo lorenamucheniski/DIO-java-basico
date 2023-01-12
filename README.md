@@ -405,7 +405,23 @@ As comparações da estrutura switch são sempre feitas de forma sequencial e n�
 - Reuso: capacidade de criar novas unidades de código a partir de outras já existentes. 
 - Encapsulamento: Capacidade de esconder complexidades e proteger dados. 
  
+ ### Estrutura
  
+Existem alguns conceitos que criam as estruturas básicas da orientação a objetos, sendo eles:
+
+- Classe;
+- Atributo;
+- Método;
+- Objeto;
+- Mensagem; 
+
+Tudo na orientação a objetos começa com esses conceitos, por isso eles se tornam essenciais para que se possa começar a trabalhar com o mesmo. 
+
+*_Classe_*
+
+Uma classe é um elemento do código Java que utilizamos para representar objetos do mundo real. Dentro dela é comum declararmos atributos e métodos, que representam, respectivamente, as características e comportamentos desse objeto. Alguns exemplos de classe são:
+
+      Bola, Carro, Venda, Viagem, Comprador, Computador, etc.
       
       
       
