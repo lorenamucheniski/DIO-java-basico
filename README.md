@@ -419,9 +419,13 @@ Tudo na orientação a objetos começa com esses conceitos, por isso eles se tor
 
 *_Classe_*
 
-Uma classe é um elemento do código Java que utilizamos para representar objetos do mundo real. Dentro dela é comum declararmos atributos e métodos, que representam, respectivamente, as características e comportamentos desse objeto. Alguns exemplos de classe são:
+Uma classe é um elemento do código Java que utilizamos para representar objetos do mundo real. Dentro dela é comum declararmos atributos e métodos, que representam, respectivamente, as características e comportamentos desse objeto. Alguns exemplos de classe são: Bola, Carro, Venda, Viagem, Comprador, Computador, etc. Com a classe conseguimos representar entidades que sejam concretas ou abstratas.  
 
-      Bola, Carro, Venda, Viagem, Comprador, Computador, etc.
+*_Atributos_*
+
+É através dos atributos que conseguimos caracterizar nossas classes e futuros objetos, sendo o atributo a primeira coisa que podemos colocar dentro da classe. Então, tudo o que se diz respeito a caracteristicas tem que ser definidas pelos atributos. Exemplos de atributos: Bola - diâmetro, Carro - cor, Venda - valor, Viagem - distância, Comprador - nome, Computador - memória.
+
+Existe uma similaridade entre atributo e variáveis, sendo os dois reconhecidos pelo computador da mesma maneira mas, conceitualmente eles são diferentes. Na orientação a objetos, dentro das classes, cria-se atributos, já as variáveis serão definidas e terão seu ciclo de vida dentro dos métodos
       
       
       
