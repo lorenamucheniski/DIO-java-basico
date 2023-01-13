@@ -2,6 +2,23 @@
 Curso realizado pela plataforma da DIO(Digital innovation One), com a linguagem Java.
 
 *******
+*ÍNDICE*
+
+1. Padrões de nomenclatura
+2. Tipos de dados
+3. Variáveis e Constantes
+4. Operador Ternário
+5. Operadores Relacionais
+6. Operadores Lógicos
+7. Métodos
+8. Escopo
+9. Palavras reservadas
+10. Terminal e argumentos
+11. Controle de fluxo 
+12. Orientação a objetos
+
+
+*******
 ## 1. Padrões de nomenclatura
 Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algumas convenções de escrita. Esses padrões estão expressos nos itens abaixo: 
 
@@ -190,6 +207,24 @@ A classe calculadora possui três métodos que somam dois valores do mesmo tipo,
 Embora seja possível não retornar nada dos métodos (como simplesmente mostrar uma mensagem ou um menu de opções), o mais comum é que os métodos retornem algo.
 
 Por exemplo, uma soma. O método pode ser simplesmente um trecho de código que calcula a soma de dois números e retorna esse resultado. Ou pode ser um método que recebe os coeficientes de uma equação do segundo grau e retorna suas raízes. O retorno pode ser um inteiro, um float, uma string, pode ser simplesmente uma decisão (como um boolean) ou outra coisa mais elaborada que você desejar.
+
+Exemplos do que o **return** pode retornar:
+
+      String: 1 public String getMenssagem(){
+              2 return "Olá!";
+              3 }
+              
+      Double: 1 public double getJuros(){
+              2 return 2.36;
+              3 }  
+              
+      Int:    1 public int getParcelas(){
+              2 return 4;
+              3 }        
+ 
+      Sem retorno : 1 public void executar(){
+                    2 return; // 
+                    3 }
  
 ## 8. Escopo
 
@@ -357,6 +392,40 @@ As comparações da estrutura switch são sempre feitas de forma sequencial e n�
       11    default:
       12        //bloco de código que será executado se nenhum dos cases for aceito;
       13 }
+      
+ ## 12. Orientação a objetos
+ 
+ A orientação a Objetos é um paradigma de análise, projeto e programação de sistemas de software, baseado na composição e interação entre diversas unidades de software chamados de objetos. 
+ 
+ ### Fundamentos
+ 
+ Os fundamentos da orientação a objetos, são três: abstração, reuso e encapsulamento.
+ 
+ - Abstração: processo pelo qual se isolam características de um objeto, considerando os que tenham em comum certos grupos de objetos. A abstração é a capacidade de pensarmos nas características mais essenciais, o que mais pode ser reusado. 
+- Reuso: capacidade de criar novas unidades de código a partir de outras já existentes. 
+- Encapsulamento: Capacidade de esconder complexidades e proteger dados. 
+ 
+ ### Estrutura
+ 
+Existem alguns conceitos que criam as estruturas básicas da orientação a objetos, sendo eles:
+
+- Classe;
+- Atributo;
+- Método;
+- Objeto;
+- Mensagem; 
+
+Tudo na orientação a objetos começa com esses conceitos, por isso eles se tornam essenciais para que se possa começar a trabalhar com o mesmo. 
+
+*_Classe_*
+
+Uma classe é um elemento do código Java que utilizamos para representar objetos do mundo real. Dentro dela é comum declararmos atributos e métodos, que representam, respectivamente, as características e comportamentos desse objeto. Alguns exemplos de classe são: Bola, Carro, Venda, Viagem, Comprador, Computador, etc. Com a classe conseguimos representar entidades que sejam concretas ou abstratas.  
+
+*_Atributos_*
+
+É através dos atributos que conseguimos caracterizar nossas classes e futuros objetos, sendo o atributo a primeira coisa que podemos colocar dentro da classe. Então, tudo o que se diz respeito a caracteristicas tem que ser definidas pelos atributos. Exemplos de atributos: Bola - diâmetro, Carro - cor, Venda - valor, Viagem - distância, Comprador - nome, Computador - memória.
+
+Existe uma similaridade entre atributo e variáveis, sendo os dois reconhecidos pelo computador da mesma maneira mas, conceitualmente eles são diferentes. Na orientação a objetos, dentro das classes, cria-se atributos, já as variáveis serão definidas e terão seu ciclo de vida dentro dos métodos
       
       
       
